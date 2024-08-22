@@ -28,33 +28,7 @@
     <nav>
         <div class="navbar bg-base-100">
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Home</a></li>
-                <li>
-                    <a>Service</a>
-                </li>
-                <li><a>Portfolio</a></li>
-                <li><a>Blogs</a></li>
-                <li><a>Contact us</a></li>
-                </ul>
-              </div>
+              
               <a class="btn btn-ghost text-2xl font-bold"><img src="./assets/arrow-icon.png" alt="">Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -69,19 +43,65 @@
               </ul>
             </div>
             <div class="navbar-end gap-3">
-                <button class="btn btn-circle">
+                <button class="btn btn-circle invisible lg:visible">
                    <img src="./assets/search-icon.png" alt="">
                   </button>
-                  <button class="btn btn-circle">
+                  <button class="btn btn-circle invisible lg:visible">
                     <img src="./assets/cart-icon.png" alt="">
                    </button>
-                <button class="btn bg-lime-500 font-bold rounded-3xl ">
+                <button class="btn bg-lime-500 font-bold rounded-3xl invisible lg:visible">
                     Book Consult
                     <img src="./assets/arrow-icon-2.png" alt="">
                   </button>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                    <li>
+                        <a>Service</a>
+                    </li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact us</a></li>
+                    </ul>
+                  </div>
             </div>
           </div>
     </nav>
+    <main>
+        <!-- banner Section -->
+         <section>
+            <div class="hero  min-h-screen">
+                <div class="hero-content text-center">
+                  <div class="text-center  w-9/12">
+                    <div class="flex justify-center">
+                        <img src="./assets/banner.png" alt="">
+                    </div>
+                    <h1 class="text-5xl font-extrabold">A barn house of this design has a striking appearance</h1>
+                    <p class="py-6 text-gray-500 font-semibold text-xl">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <button class="btn bg-lime-300 rounded-3xl font-semibold text-xl">View Details <img src="./assets/arrow-icon.png" alt=""></button>
+                  </div>
+                </div>
+              </div>
+         </section>
+    </main>
     
 </body>
 </html>
